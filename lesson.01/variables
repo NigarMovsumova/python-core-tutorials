@@ -1,0 +1,38 @@
+kitabin sehifelerinin sayi
+
+Book_p
+BookPage
+page_num
+page
+book_page_count
+
+book_page_count
+camel case, kebab case, snake case
+
+BookPage
+book-page-count
+book_page_count
+
+İşıqfor rəngi
+stoplight
+color
+StoplightColor
+stoplightColor
+stoplight-color
+stoplight_color
+
+phone brand
+phoneBrand
+phone-brand
+phone_brand
+
+batareyanin hecmi
+batteryCapacity
+battery_capacity
+battery-capacity
+
+heyvan adi
+pet, name
+petName
+pet-name
+pet_name
