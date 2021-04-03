@@ -1,0 +1,18 @@
+1. Rombun sahəsini hesablayan proqram yazmağa gərəkir. İstifadəçi klaviaturadan onun 2
+diaqonalının uzunluğunu daxil edir.
+2. Ekranda bu yazını göstərin:
+3.  İstifadəçi gediləcək yolu, və maşının 100 kilometr üçün neçə litr benzin işlətdiyini daxil edir.
+Gediləcək yol üçün lazım olan benzin miqdarını və onun qiymətini hesablayan proqram yazın.
+(benzin 1 litr 0.90 azn)
+
+
+Əlavə tapşırıqlar:
+4.  İstifadəçi klaviaturadan 3 rəqəm daxil edir. Birincisi - aylıq maaşıdır. İkincisi - aylıq kredit
+ödənişidir, üçüncüsü - kommunal xidmətlərə görə borcudur.
+Bütün ödənişləri etdikdən sonra istifadəçidə hansı məbləğin qaldığını konsola çıxartmaq
+lazımdır.
+5. Istifadəçi otağın enini, uzunluğunu və hündürlüyünü daxil edir, otağın divarları üçün neçə kv
+metr oboy lazım olduğunu hesablayan program yazın.
+6. İstifadəçi kitabın cəmi səhifə sayını və hər gün oxuyacağı səhifənin sayını daxil edir. Kitabın
+neçə gün sonra bitəcəyini hesablayan program yazın.
+
