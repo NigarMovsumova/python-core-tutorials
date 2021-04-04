@@ -1,0 +1,38 @@
+1. İstifadəçi rəqəm daxil edir. Əgər rəqəm 0dan yuxarıdırsa,
+konsola - "Number is positive",
+0dan aşağıdırsa, "Number is negative", 0a bərabərdirsə,
+"Number is equal to zero" çıxarın.
+
+2. İstifadəçi klaviaturadan saati daxil edir.
+Əgər daxil edilən nömrə 0-6 arasında yerləşirsə, o zaman "Good Night" çıxarın,
+Eger 7- 12 arasinda yerleshirse, 'Good Morning' chixarin
+13-17 arasındadırsa, "Good Day" çıxarın,
+18-0 arası isə - "Good Evening".
+Məsələn, 6 rəqəmi 6-13 arasındadır.
+
+3.  İstifadəçi klaviaturadan 3 rəqəm daxil edir. Birincisi - aylıq maaşıdır.
+İkincisi - aylıq kredit
+ödənişidir, üçüncüsü - kommunal xidmətlərə görə borcudur.
+Bütün ödənişləri etdikdən sonra istifadəçidə hansı məbləğin qaldığını konsola çıxartmaq
+lazımdır.
+
+4. Istifadəçi otağın enini, uzunluğunu və hündürlüyünü daxil edir, otağın divarları üçün neçə kv
+metr oboy lazım olduğunu hesablayan program yazın.
+
+5. Пользователь вводит цену машины и скидку на нее.
+Нужно показать пользователю, сколько она будет стоить после скидки
+и сколько составила скидка
+
+Extras:
+
+1. İstifadəçi klaviaturadan 3 rəqəm daxil edir.
+İstifadəçi seçimindən asılır olaraq proqram 3 rəqəmin cəmini ya
+hasilini konsola çıxarır.
+
+2. İstifadəçi 2 rəqəm daxil edir.
+Seçimindən asılı olaraq, proqram ekrana 2 rəqəmin maksimumunu,
+minimumunu və ya hasilini əks etdirin.
+
+3. İstifadəçi klaviaturdan metr sayını daxil edir.
+Seçimdən asılı olaraq, proqram metrləri millərə, düymlara
+və ya yardlara çevirir.
