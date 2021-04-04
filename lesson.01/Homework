@@ -1,7 +1,8 @@
-1. Rombun sahəsini hesablayan proqram yazmağa gərəkir. İstifadəçi klaviaturadan onun 2
-diaqonalının uzunluğunu daxil edir.
-2. Ekranda bu yazını göstərin:
-3.  İstifadəçi gediləcək yolu, və maşının 100 kilometr üçün neçə litr benzin işlətdiyini daxil edir.
+1. Rombun sahəsini hesablayan proqram yazmağa gərəkir. İstifadəçi klaviaturadan
+onun 2 diaqonalının uzunluğunu daxil edir.
+
+2.  İstifadəçi gediləcək yolu, və maşının 100 kilometr üçün neçə litr benzin
+ işlətdiyini daxil edir.
 Gediləcək yol üçün lazım olan benzin miqdarını və onun qiymətini hesablayan proqram yazın.
 (benzin 1 litr 0.90 azn)
 
@@ -15,4 +16,6 @@ lazımdır.
 metr oboy lazım olduğunu hesablayan program yazın.
 6. İstifadəçi kitabın cəmi səhifə sayını və hər gün oxuyacağı səhifənin sayını daxil edir. Kitabın
 neçə gün sonra bitəcəyini hesablayan program yazın.
-
+7. Пользователь вводит цену машины и скидку на нее.
+Нужно показать пользователю, сколько она будет стоить после скидки
+и сколько составила скидка
