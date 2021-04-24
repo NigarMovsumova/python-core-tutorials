@@ -7,3 +7,25 @@
 # 2 is less than 10
 # 10 is equal to 10
 # 11 is more than
+
+# user_input = input('Enter any word: ')
+# index = 0
+#
+# while index < len(user_input):
+#     print('index = ', index)
+#     if user_input[index] == 'a':
+#         print('index = ', index, 'I found a')
+#     index += 1
+
+number = int(input('Enter the number between 1 and 20: '))
+index = 1
+while index < number:
+    if index < 10:
+        print(index, 'is less than 10')
+    elif index == 10:
+        print(index, 'is equal to 10')
+    else:
+        print(index, 'is more than 10')
+    index += 1
+
+
