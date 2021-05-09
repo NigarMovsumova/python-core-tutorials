@@ -90,11 +90,23 @@ print(txt.format(13, age))
 txt = "My name is John, {1} and I am {1}"
 print(txt.format(13, age))
 txt = 'My name is {name}, and I am {age}'
-print(txt.format(name='John', age=age))
+print(txt.format(age=age, name='John'))
+
+name = input('Enter your name: ')
+surname = input('Enter your surname: ')
+age = input('Enter your age: ')
+birth_year = input('Enter your birth year: ')
+birth_place = input('Enter your birth place: ')
+address = input('Enter your address: ')
+phone_number = input('Enter your phone number: ')
 
 sample_txt = '''
-My name is Natalia.
-My surname is Govorova.
-I am 15.
-I was born in 1982 in Chelyabinsk.
-My address is Flat 116, 19, Pionerskaya Street. My phone number is 41-5-81.'''
+My name is {name}.
+My surname is {surname}.
+I am {age}.
+I was born in {birth_year} in {birth_place}.
+My address is {address}. My phone number is {phone_number}.'''
+
+print(sample_txt.format(phone_number=phone_number, age=age, name=name, surname=surname,
+                        birth_year=birth_year, birth_place=birth_place, address=address))
+

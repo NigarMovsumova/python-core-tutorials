@@ -1,0 +1,38 @@
+0. Count all lower case, upper case, digits from a given string
+
+lower - 10
+upper - 3
+digits - 10
+
+1. Given an input string, count occurrences of all characters within a string
+[a, b, c, d, e]
+
+a - 1
+b - 10
+c - 3
+d - 5
+e - 15
+
+2. Removal all the characters other than integers from a string
+User enters a string.
+My age is 27. I was born in 1994
+
+271994
+
+
+3. By using first, second and last characters of the string, create a new string.
+hello
+
+heo
+
+4. Does the string start with an A?
+
+Alphabet
+alphabet
+
+True 
+
+zoo
+Zoo
+
+False
