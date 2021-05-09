@@ -56,3 +56,45 @@ print(left + right)
 # 2. нужно заменить , на .
 # 3. нужно распечатать все lowercase
 # 4. проверить длина строки больше 200 или нет. true/false
+
+text = '''Нас было много на челне;
+Иные парус напрягали,
+Другие дружно упирали
+В глубь мощны веслы. В тишине
+На руль склонясь, наш кормщик умный
+В молчанье правил грузный челн;
+А я — беспечной веры полн, —
+Пловцам я пел… Вдруг лоно волн
+Измял с налету вихорь шумный…
+Погиб и кормщик и пловец! —
+Лишь я, таинственный певец,
+На берег выброшен грозою,
+Я гимны прежние пою
+И ризу влажную мою
+Сушу на солнце под скалою.'''
+
+text = text.replace(',', '.').lower()
+print(text)
+flag = True if len(text) > 200 else False
+print(flag)
+print(True if len(text) > 200 else False)
+
+if len(text) > 200:
+    print(True)
+else:
+    print(False)
+
+age = 36
+txt = "My name is John, {} and I am {}"
+print(txt.format(13, age))
+txt = "My name is John, {1} and I am {1}"
+print(txt.format(13, age))
+txt = 'My name is {name}, and I am {age}'
+print(txt.format(name='John', age=age))
+
+sample_txt = '''
+My name is Natalia.
+My surname is Govorova.
+I am 15.
+I was born in 1982 in Chelyabinsk.
+My address is Flat 116, 19, Pionerskaya Street. My phone number is 41-5-81.'''
