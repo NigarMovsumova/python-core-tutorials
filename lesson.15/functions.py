@@ -30,4 +30,14 @@
 # calculate - first_num, second_num, operation = +-*/
 # print result
 
-# 1. Calculate funksiyasinin her emeliyyatini ferqli funksiyada olmalidir.
+def calculate(numbers):
+    for i in range(0, len(numbers) // 2):
+        tmp = numbers[i]
+        numbers[i] = numbers[len(numbers) - 1 - i]
+        numbers[len(numbers) - 1 - i] = tmp
+    print(numbers)
+
+
+numbers = [0, 12, 32, -45, 65, 7, 23, 1, 6, 7]
+
+calculate(numbers)
