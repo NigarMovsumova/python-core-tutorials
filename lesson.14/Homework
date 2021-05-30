@@ -2,24 +2,24 @@
 # [1, 2, 1, 1, 3, 4]
 # [2, 3, 4]
 
-# 2. reqemi istifadechi daxil edir. siyahida neche defe rast gelinirse onu tapmaq gerekir
+# 2. + reqemi istifadechi daxil edir. siyahida neche defe rast gelinirse onu tapmaq gerekir
 # [1, 2, 1, 1, 3, 4]
 # 1. - 3
 # 2 - 1
 # 23 - 0
 
-# 3. Проверить элементы списка расположены в порядке убывания или нет.
+# + 3. Проверить элементы списка расположены в порядке убывания или нет.
 # [87, 85, 3, -10] - True
 # [78, 56, 67] - False
 
-# 4. Ölçüsü 10 olan massiv yaradın.
+# + 4. Ölçüsü 10 olan massiv yaradın.
 #  Massivdəki rəqəmlərin yerlərini tərsinə çevirən program
 # yazın. (0-cı indeksi 9-la, 1-i 8-lə və s.)
 
 # [0, 12, 32, -45, 65, 7, 23, 1, 6, -9]
 # [-9, 6, 1, 23, 7, 65, -45, 32, 12, 0]
 
-# 5. Ölçüsü 9 olan massiv yaradın.
+# + 5. Ölçüsü 9 olan massiv yaradın.
 #  Massivdəki rəqəmlərin yerlərini tərsinə çevirən program
 # yazın. (0-cı indeksi 9-la, 1-i 8-lə və s.)
 # [0, 12, 32, -45, 65, 7, 23, 1, 6]
