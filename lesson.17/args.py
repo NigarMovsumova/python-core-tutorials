@@ -50,11 +50,33 @@ def print_contacts():
         counter += 1
 
 
-def view_contacts(user_choices):
+def view_contact_by_index(user_choices):
+    print(user_choices)
+    counter = 1
+    for i in user_choices:
+        for number, contact in contact_list.items():
+            if int(i) == counter:
+                print('contact: {}, number: {}'.format(contact, number))
+                break
+            counter += 1
+
+
+def view_contact_by_full_name(user_choices):
     for user_choice in user_choices:
         for number, contact in contact_list.items():
             if contact == user_choice:
                 print("Contact: {} Number: {}".format(contact,  number))
+
+
+def view_contact_by_first_letter(user_choices):
+    contact_set = set()
+    for user_choice in user_choices:
+        for number, contact in contact_list.items():
+            if contact[0: len(user_choice)] == user_choice:
+                # print("Contact: {} Number: {}".format(contact,  number))
+                contact_set.add("Contact: {} Number: {}".format(contact,  number))
+    for contact in contact_set:
+        print(contact)
 
 
 contact_list = {
@@ -62,7 +84,9 @@ contact_list = {
         "0502312097": "Aslan Babakishiyev",
         "0502312128": "Mehman Askerov",
         "0502312535": "Ejder Huseynzade",
-        "0502312480": "Taleh Bayramov"
+        "0502312480": "Taleh Bayramov",
+        "0507777777": "Tukezban Melhemova",
+        "0554321242": "Nigar Movsumova"
 }
 
 print_contacts()
@@ -76,6 +100,8 @@ while user_input != 's':
     user_input = input('Do you want to continue? ')
 
 print('Contacts List: ')
-view_contacts(user_choices)
+# view_contacts(user_choices)
+# view_contact_by_index(user_choices)
+view_contact_by_first_letter(user_choices)
 
 # По индексу передает контакт, по имени ? - regex
